@@ -10,7 +10,7 @@ img { max-width: 100%; }
 a { color: var(--navy); }
 
 .hero { background: linear-gradient(160deg, #0b2a5b 0%, #123a7a 60%, #17477f 100%); border-radius: 24px; color: #fff; text-align: center; padding: 32px 20px 28px; }
-.hero-logo { display: block; margin-inline: auto; width: 96px; height: 96px; border-radius: 50%; box-shadow: 0 4px 18px rgba(0,0,0,0.35); }
+.hero-logo { display: block; margin-inline: auto; width: 170px; height: auto; }
 .hero-name { font-size: 28px; font-weight: 800; margin-top: 14px; }
 .hero-sub { font-size: 13px; color: var(--gold); font-weight: 700; margin-top: 2px; letter-spacing: 0.14em; }
 .hero-tag { font-size: 14px; line-height: 24px; color: #f4efec; margin: 12px auto 20px; max-width: 420px; }
@@ -106,7 +106,7 @@ footer { margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--hairli
 .topbar{position:sticky;top:0;z-index:50;background:var(--navy);color:#fff}
 .topbar-in{max-width:1080px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:8px 16px;gap:12px}
 .brand{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font-weight:800;font-size:17px}
-.brand img{width:36px;height:36px;border-radius:50%}
+.brand img{width:42px;height:41px;object-fit:contain}
 .menu{display:none;gap:4px;align-items:center}
 .menu a{color:#fff;text-decoration:none;font-weight:700;font-size:14px;padding:8px 12px;border-radius:999px}
 .menu a:hover{background:rgba(255,255,255,.12)}
